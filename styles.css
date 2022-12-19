@@ -1,0 +1,218 @@
+.homepagemain{
+    text-align: center;
+    background-image: url(images/homeback1.webp);
+    background-size: cover;
+    height: 70vh;
+    padding: 10rem;
+}
+.aboutpagemain{
+    text-align: center;
+    background-image: url(images/aboutback2.png);
+    background-size: cover;
+    height: 70vh;
+    padding: 10rem;
+}
+.specialspagemain{
+    text-align: center;
+    background-image: url(images/specialback1.jpg);
+    background-size: cover;
+    height: 70vh;
+    padding: 10rem;
+}
+header{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    font-size: 2.5rem;
+    font-family: 'Fira Sans',sans-serif;
+}
+.logo{
+    max-width: 200px;
+}
+h1{
+    color: navy;
+    font-size: 100px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+}
+h2{
+    margin: 0;
+    color: lightskyblue;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: xx-large;
+}
+.h2like{
+    margin: 0;
+    color: lightskyblue;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: xx-large;
+}
+h3{
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: xx-large;
+}
+h4{
+    margin: 0;
+    color: navy;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+}
+p{
+    font-family: 'Fira Sans', sans-serif;
+    color: navy;
+    font-size: large;
+}
+.menubar{
+    background-color: aliceblue;
+}
+body{
+    margin: 0;
+}
+
+.peppermintyogurt{
+    background-image: url(images/peppermintback2.jpg);
+    width: 200px;
+}
+.chocolateyogurt{
+    background-image: url(images/chocolateback3.jfif);
+}
+.pumpkinyogurt{
+    background-image: url(images/pumpkinback2.jfif);
+}
+.peachyogurt{
+    background-image: url(images/peachback1.jpg);
+}
+.cremebruleeyogurt{
+    background-image: url(images/cremebruleeback1.jpg);
+}
+.supermanyogurt{
+    background-image: url(images/supermanback1.jpg);
+}
+.coffeeyogurt{
+    background-image: url(images/coffeeback2.png);
+}
+.vanillayogurt{
+    background-image: url(images/vanillaback1.jfif);
+}
+.watermelonyogurt{
+    background-image: url(images/watermelonback1.webp);
+}
+.cheesecakeyogurt{
+    background-image: url(images/cheesecakeback1.webp);
+}
+.greenteayogurt{
+    background-image: url(images/greenteaback1.webp);
+}
+.lemonyogurt{
+    background-image: url(images/lemonback1.webp);
+}
+.bananayogurt{
+    background-image: url(images/Bananaback1.png);
+}
+.toffeeyogurt{
+    background-image: url(images/toffeeback1.jfif);
+}
+.peanutbutteryogurt{
+    background-image: url(images/peanutbutterback1.jpg);
+}
+.fudgetopping{
+    background-image: url(images/fudgeback2.jpg);
+}
+.carameltopping{
+    background-image: url(images/caramelback1.jpg);
+}
+.strawberrytopping{
+    background-image:url(images/strawberriesback1.webp);
+}
+.cherriestopping{
+    background-image: url(images/cherriesback1.webp);
+}
+.gummywormstopping{
+    background-image: url(images/gummywormsback1.webp);
+}
+.walnutstopping{
+    background-image: url(images/walnutsback1.webp);
+}
+.oreotopping{
+    background-image: url(images/oreoback5.jpg);
+}
+.butterscotchtopping{
+    background-image: url(images/Butterscotchback2.jpg);
+}
+.minimarshmellowstopping{
+    background-image: url(images/minimarshmellowsback1.jfif);
+}
+.licoricetopping{
+    background-image: url(images/licoriceback1.jpg);
+}
+.rainbowsprinklestopping{
+    background-image: url(images/rrainbowsprinklesback1.webp);
+}
+.chocolatesprinklestopping{
+    background-image: url(images/chocolatesprinklestback2.jpg);
+}
+.blueberriestopping{
+    background-image: url(images/blueberriesback1.webp);
+}
+.brownietopping{
+    background-image: url(images/brownieback1.jfif);
+}
+.cookiedoughtopping{
+    background-image: url(images/cookiesdoughback2.jpg);
+}
+.menupagemain{
+    text-align: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+td{
+    padding: .5rem;
+    min-width: 13.4rem;
+}
+th{
+    padding: .5rem;
+}
+table{
+    border-spacing: 2rem;
+}
+.getintouch{
+    display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-gap: 1rem;
+        padding: 5rem;
+        background-color: aliceblue;
+}
+.sm{
+    max-width: 100px;
+}
+.try2{
+    background-color: aliceblue;
+    max-width: 1000px;
+    margin: auto;
+    padding: 3.5rem;
+}
+
+.galleryphotos img{
+    max-width: 400px;
+}
+.menubar :hover{
+    color: aquamarine;
+}
+@media (max-width:1000px){
+    #headertitle{
+        display: none;
+    }
+    table{
+        padding: 5rem;
+    }
+}
+@media (min-width:1001px){
+    #table2{
+        display: none;
+    }
+}
